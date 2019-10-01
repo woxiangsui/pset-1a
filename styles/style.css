@@ -1,9 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
 a:link {
   color: purple;
+  text-decoration: none;
+}
+a:visited {
+  color: coral;
 }
 header {
   background-color: lightgrey;
@@ -11,8 +11,13 @@ header {
 }
 h1 {
   color: indianred;
-  font-size: 35px;
+  font-size: 40px;
+  text-indent: 12px;
 }
 p {
   font-size: 18px;
+}
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
 }
