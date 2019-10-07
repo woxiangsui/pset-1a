@@ -10,9 +10,13 @@ a:visited {
   color: coral;
 }
 header {
-  background-color: lightgrey;
+  background-color: black;
   font-size: 25px;
   text-align: center;
+}
+a[title] {
+  color: white;
+  font-family: serif;
 }
 h1 {
   color: indianred;
