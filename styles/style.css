@@ -1,5 +1,5 @@
 * {
-  word-spacing: 2px;
+  font-family: serif;
 }
 .container {
   margin: 0 auto;
@@ -7,6 +7,7 @@
 nav ul {
   list-style: none;
   margin: 0;
+  padding: 0;
 }
 nav li {
   display: inline-block;
@@ -19,6 +20,25 @@ a:link {
 a:visited {
   color: coral;
 }
+.img-persona {
+  display: block;
+  margin-left: 50px;
+  border: 2px solid whitesmoke;
+}
+.img {
+  display: block;
+  margin-left: 50px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.concert {
+  margin-left: 50px;
+}
+.caption {
+  text-indent: 170px;
+  font-size: 14px;
+}
 header {
   background-color: salmon;
   font-size: 30px;
@@ -26,7 +46,6 @@ header {
 }
 a[title] {
   color: white;
-  font-family: serif;
 }
 body {
   margin: 0;
@@ -35,12 +54,29 @@ h1 {
   color: indianred;
   font-size: 40px;
   text-indent: 12px;
-  margin: 15px;
+  margin: 25px;
+}
+h2, h4 {
+  text-indent: 25px;
+}
+h3 {
+  text-indent: 40px;
 }
 p {
   font-size: 18px;
+  margin-left: 15px;
+  word-spacing: 2px;
 }
 table, th, td {
   border: 2px solid black;
   border-collapse: collapse;
+}
+table {
+  margin-left: 10px;
+}
+th, td {
+  text-align: center;
+}
+#th1, #th2, #th3, #th4 {
+  color: darkcyan;
 }
